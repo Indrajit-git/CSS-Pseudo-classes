@@ -1,0 +1,311 @@
+/* Pseudo-classes */
+
+/* :first-child Pseudo-class */
+
+.first_list li:first-child {
+    color: chocolate;
+    border: 2px solid rgb(60, 175, 75);
+}
+
+/* CSS - The :last-child Pseudo-class */
+.second_list li:last-child {
+    color: teal;
+    border: 2px solid darkgoldenrod;
+}
+
+/* CSS :nth-child() Selector */
+.list_three li:nth-child(1) {
+    color: orangered;
+    border: 2px solid royalblue;
+}
+
+.list_four li:nth-child(2n+0) {
+    color: royalblue;
+    border: 2px solid mediumvioletred;
+}
+
+/* CSS :nth-last-child() Selector */
+
+.list_five li:nth-last-child(3) {
+    color: olivedrab;
+    border: 2px solid rgb(31, 50, 161);
+}
+
+.list_six li:nth-last-child(2n+2) {
+    color: crimson;
+    border: 2px solid darkorchid;
+}
+
+/* :nth-of-type() Selector  */
+
+.list_seven li:nth-of-type(2) {
+    color: sienna;
+    border: 2px solid chocolate;
+}
+
+.box_four p:nth-of-type(2n+1) {
+    color: brown;
+    border: 2px solid sienna;
+}
+
+/* :nth-last-of-type() Selector */
+
+.list_eight li:nth-last-of-type(2) {
+    color: olive;
+    border: 2px solid mediumslateblue;
+}
+
+.box_five p:nth-last-of-type(2n+1) {
+    color: darkgreen;
+    border: 2px solid royalblue;
+}
+
+/* The :only-child selector */
+
+p:only-child {
+    color: red;
+}
+
+li:only-child {
+    color: green;
+}
+
+/* The :only-of-type selector  */
+
+.only p:only-of-type {
+    color: firebrick;
+    border: 2px solid grey;
+    background-color: wheat;
+}
+
+.list_ten li {
+    color: rgb(10, 211, 110);
+    border: 2px solid darkgreen;
+}
+
+/* first-of-type Selector */
+
+.first p:first-of-type {
+    color: crimson;
+    border: 2px solid brown;
+}
+
+.list_eleven li:first-of-type {
+    color: springgreen;
+    border: 2px solid forestgreen;
+}
+
+/*  :last-of-type Selector */
+
+.circle p:last-of-type {
+    color: tomato;
+    border: 2px solid darkturquoise;
+}
+
+.list_twenty li:last-of-type {
+    color: teal;
+    border: 2px solid rebeccapurple;
+}
+
+/* The :empty selector  */
+
+.box_empty p:empty {
+    color: crimson;
+    border: 2px solid dodgerblue;
+}
+
+.list_thirty li:empty {
+    color: darkgoldenrod;
+    border: 2px solid blueviolet;
+}
+
+/* not Selector */
+
+.box_rect p:not(.new_para) {
+    color: saddlebrown;
+    border: 2px solid crimson;
+}
+
+p:not(.new_para) {
+    color: orchid;
+    border: 2px solid darkolivegreen;
+}
+
+/* The :lang()  */
+
+.box_sq .langu:lang(en) {
+    color: slateblue;
+    border: 2px solid deepskyblue;
+}
+
+.box_sq .langu:lang(de) {
+    color: rgb(26, 17, 88);
+    border: 2px solid rgb(55, 71, 77);
+}
+
+.box_sq .langu:lang(uk) {
+    color: rgb(59, 16, 85);
+    border: 2px solid rgb(8, 51, 16);
+}
+
+/* :link selector  */
+
+.nav_item a {
+    color: rgb(72, 89, 161);
+}
+
+/* :hover Selector */
+
+.nav_item a:hover {
+    color: maroon;
+}
+
+.link_select:hover {
+    color: seagreen;
+    border: 2px solid rgb(59, 16, 85);
+    box-shadow: 0 0 0 10px brown;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* :visited Selector */
+
+.nav_item a:visited {
+    color: green;
+}
+
+/* :active Selector */
+
+.nav_item a:active {
+    background-color: tomato;
+    color: blue;
+}
+
+/* :target Selector */
+
+p:target {
+    color: sienna;
+    background-color: chartreuse;
+    border: 2px solid cyan;
+}
+
+/* :focus Selector */
+
+input:focus {
+    background-color: yellow;
+    border: 2px solid brown;
+    color: red;
+}
+
+/* :checked Selector */
+
+input[type="radio"]:checked+label {
+    color: teal;
+    box-shadow: 0 0 0 1px darkgreen;
+}
+
+input[type="checkbox"]:checked {
+    color: slateblue;
+    box-shadow: 0 0 0 2px cyan;
+}
+
+/* :enabled Selector */
+input:enabled {
+    color: cadetblue;
+    border: 2px solid rgb(41, 49, 45);
+}
+
+
+/* :disabled Selector */
+
+input[type="date"]:disabled {
+    color: sienna;
+    background-color: orange;
+    border: 2px solid chartreuse;
+}
+
+/*The :required selector*/
+
+input:required {
+    background-color: darkolivegreen;
+    border: 2px solid firebrick;
+}
+
+/* The :optional Selector */
+input,
+select:optional {
+    background-color: blueviolet;
+    border: 2px solid greenyellow;
+}
+
+/* :in-range Selector */
+
+input[type="number"]:in-range {
+    color: rgba(5, 35, 49, 0.76);
+    background-color: rgb(218, 70, 25);
+    border: 10px solid forestgreen;
+}
+
+
+/* :out-of-range Selector  */
+
+input[type="number"]:out-of-range {
+    color: cadetblue;
+    border: 5px solid navy;
+    background-color: purple;
+}
+
+/* :read-only Selector */
+
+input[type="text"]:read-only {
+    color: darkorange;
+    border: 2px solid forestgreen;
+    background-color: seagreen;
+}
+
+/* :read-write Selector */
+
+input:read-write {
+    border: 5px solid violet;
+}
+
+/* :valid Selector */
+
+input:valid {
+    border: 3px dashed burlywood;
+    background-color: turquoise;
+}
+
+/*  :invalid Selector */
+
+input:invalid {
+    border: 2px double mistyrose;
+    background-color: teal;
+}
+
+/*  default Selector */
+input[type="checkbox"]:default {
+
+    box-shadow: 0 0 0 3px darkred;
+}
+
+option:default {
+    color: rgb(35, 23, 110);
+    background-color: aqua;
+}
+
+
+/* :root selector  */
+
+:root{
+    --mainColor:blue;
+    --backcolor: green;
+    --box: 2px solid red;
+}
+
+.root p{
+    color:var(--mainColor);
+    background-color: var(--backcolor);
+    border: var(--box);
+}

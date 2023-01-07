@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pseudo-class.css">
+    <title>CSS Pseudo-classes</title>
+</head>
+
+<body>
+    <main>
+        <h1>CSS Pseudo-classes</h1>
+        <span>A pseudo-class is used to define a special state of an element.</span>
+        <section>
+            <!-- CSS Pseudo-classes -->
+
+            <!-- CSS - The :first-child Pseudo-class -->
+            <h2>CSS - The :first-child Pseudo-class</h2>
+            <span>The :first-child pseudo-class matches a specified element that is the first child of another
+                element.</span>
+
+            <ul class="first_list">
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, ut.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+            </ul>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit ipsa esse veritatis, porro earum
+                perferendis laborum iure maxime deleniti assumenda?</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, ducimus?</p>
+            <hr>
+            <br>
+            <!-- CSS - The :last-child Pseudo-class -->
+            <h2>CSS - The :last-child Pseudo-class</h2>
+            <span><span>The :last-child pseudo-class matches a specified element that is the last child of another
+                    element.</span></span>
+            <ul class="second_list">
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, mollitia!</li>
+                <li>Lorem ipsum dolor sit.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, porro.</li>
+            </ul>
+
+            <hr>
+            <br>
+        </section>
+
+        <section>
+            <!-- CSS :nth-child() Selector -->
+
+            <h2>CSS :nth-child() Selector</h2>
+            <span>The :nth-child(n) selector matches every element that is the nth child of its parent.</span>
+            <strong>n can be a number, a keyword (odd or even), or a formula (like an + b).</strong>
+
+            <ul class="list_three">
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, neque?</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quis soluta animi!</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero cumque corporis provident esse
+                    consectetur in?</li>
+            </ul>
+
+            <div class="box">
+                <ul class="list_four">
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, eum?</li>
+                    <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem vero reprehenderit qui
+                        cupiditate esse officia.</li>
+                    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, non.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, voluptatum.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium, laborum.</li>
+                </ul>
+            </div>
+            <hr>
+            <br>
+
+            <!-- CSS :nth-last-child() Selector -->
+            <h2>CSS :nth-last-child() Selector</h2>
+            <span>The :nth-last-child(n) selector matches every element that is the nth child, regardless of type, of
+                its parent, counting from the last child.</span>
+            <strong>n can be a number, a keyword, or a formula.</strong>
+            <div class="box_two">
+                <ul class="list_five">
+                    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, libero?</li>
+                    <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur reiciendis minima
+                        doloremque asperiores!</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti inventore labore quae nam,
+                        tempora tenetur.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, eaque?</li>
+                </ul>
+            </div>
+
+            <div class="box_three">
+                <ul class="list_six">
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, modi delectus quos
+                        perferendis, voluptatum corrupti facilis et praesentium assumenda quod cupiditate possimus magni
+                        amet, libero optio itaque sequi voluptate neque?</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, quia.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor reprehenderit et eius saepe
+                        dolorum ullam?</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quasi eligendi non.</li>
+                    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque quas et iure, dolorum explicabo
+                        quisquam molestiae corrupti nesciunt.</li>
+                </ul>
+            </div>
+        </section>
+        <hr>
+        <br>
+        <!-- :nth-of-type() Selector -->
+        <section>
+            <h2>:nth-of-type() Selector</h2>
+            <span>The :nth-of-type(n) selector matches every element that is the nth child, of the same type (tag name),
+                of its parent.</span>
+            <strong>n can be a number, a keyword (odd or even), or a formula (like an + b).</strong>
+            <div class="box_four">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit provident facere rerum similique
+                    enim beatae autem odio hic recusandae fugit.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit provident facere rerum similique
+                    enim beatae autem odio hic recusandae fugit.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit provident facere rerum similique
+                    enim beatae autem odio hic recusandae fugit.</p>
+
+                <ul class="list_seven">
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, modi delectus quos
+                        perferendis, voluptatum corrupti facilis et praesentium assumenda quod cupiditate possimus magni
+                        amet, libero optio itaque sequi voluptate neque?</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, quia.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor reprehenderit et eius saepe
+                        dolorum ullam?</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quasi eligendi non.</li>
+                    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque quas et iure, dolorum explicabo
+                        quisquam molestiae corrupti nesciunt.</li>
+                </ul>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit provident facere rerum similique
+                    enim beatae autem odio hic recusandae fugit.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit provident facere rerum similique
+                    enim beatae autem odio hic recusandae fugit.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit provident facere rerum similique
+                    enim beatae autem odio hic recusandae fugit.</p>
+
+            </div>
+            <hr>
+            <br>
+
+            <!-- :nth-last-of-type() Selector -->
+            <h2>:nth-last-of-type() Selector</h2>
+            <span>The :nth-last-of-type(n) selector matches every element that is the nth child, of a particular type,
+                of its parent, counting from the last child.</span>
+            <strong>n can be a number, a keyword, or a formula.</strong>
+
+            <div class="box_five">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo nam, laborum accusamus totam natus
+                    consectetur qui nostrum libero reiciendis labore eius eligendi facilis veritatis eum ab vero maiores
+                    commodi nulla.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo nam, laborum accusamus totam natus
+                    consectetur qui nostrum libero reiciendis labore eius eligendi facilis veritatis eum ab vero maiores
+                    commodi nulla.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo nam, laborum accusamus totam natus
+                    consectetur qui nostrum libero reiciendis labore eius eligendi facilis veritatis eum ab vero maiores
+                    commodi nulla.</p>
+                <ul class="list_eight">
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, modi delectus quos
+                        perferendis, voluptatum corrupti facilis et praesentium assumenda quod cupiditate possimus magni
+                        amet, libero optio itaque sequi voluptate neque?</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, quia.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor reprehenderit et eius saepe
+                        dolorum ullam?</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quasi eligendi non.</li>
+                    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque quas et iure, dolorum explicabo
+                        quisquam molestiae corrupti nesciunt.</li>
+                </ul>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo nam, laborum accusamus totam natus
+                    consectetur qui nostrum libero reiciendis labore eius eligendi facilis veritatis eum ab vero maiores
+                    commodi nulla.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo nam, laborum accusamus totam natus
+                    consectetur qui nostrum libero reiciendis labore eius eligendi facilis veritatis eum ab vero maiores
+                    commodi nulla.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo nam, laborum accusamus totam natus
+                    consectetur qui nostrum libero reiciendis labore eius eligendi facilis veritatis eum ab vero maiores
+                    commodi nulla.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo nam, laborum accusamus totam natus
+                    consectetur qui nostrum libero reiciendis labore eius eligendi facilis veritatis eum ab vero maiores
+                    commodi nulla.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo nam, laborum accusamus totam natus
+                    consectetur qui nostrum libero reiciendis labore eius eligendi facilis veritatis eum ab vero maiores
+                    commodi nulla.</p>
+            </div>
+        </section>
+        <hr>
+        <br>
+
+        <!-- only-child Selector -->
+        <section>
+            <!-- only-child Selector -->
+            <h2>only-child Selector</h2>
+            <span>The :only-child selector matches every element that is the only child of its parent.</span>
+
+            <div class="box_nine">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, animi. Laborum dolores enim
+                    possimus eligendi quis dolorem corrupti facere rem.</p>
+            </div>
+
+            <ul class="list_nine">
+                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, nam.</li>
+            </ul>
+            <hr>
+            <br>
+        </section>
+
+        <!-- :only-of-type Selector -->
+
+        <section>
+            <h2>:only-of-type Selector</h2>
+            <span>The :only-of-type selector matches every element that is the only child of its type, of its
+                parent.</span>
+
+            <div class="only">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam est odit saepe at animi molestias
+                    laudantium reprehenderit et iure obcaecati.</p>
+                <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem eaque cum expedita quidem omnis a
+                    accusamus totam ullam minima sequi!</p> -->
+            </div>
+
+            <ul class="list_ten">
+                <li>HTML</li>
+            </ul>
+            <hr>
+            <br>
+        </section>
+
+        <!-- first-of-type Selector -->
+        <section>
+            <h2>first-of-type Selector</h2>
+            <span>The :first-of-type selector matches every element that is the first child, of a particular type, of
+                its parent.</span>
+
+            <div class="first">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus cum suscipit mollitia illum hic
+                    eaque animi eos sunt velit dicta.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, ut pariatur porro placeat dolore
+                    ipsam aliquam deserunt facilis nobis magnam! Dolorem quas perferendis quia pariatur?</p>
+            </div>
+
+            <ul class="list_eleven">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Bootstrap</li>
+            </ul>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati distinctio doloremque tenetur
+                accusantium voluptates neque tempora harum. Earum, nobis nesciunt.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto doloribus ipsam, iusto ex quo
+                sapiente eveniet. Obcaecati officiis ipsa architecto?</p>
+            <hr>
+            <br>
+        </section>
+
+        <!--  :last-of-type Selector-->
+
+        <section>
+            <h2> :last-of-type Selector</h2>
+            <span>The :last-of-type selector matches every element that is the last child, of a particular type, of its
+                parent.</span>
+
+            <div class="circle">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto deserunt, at harum expedita nihil
+                    repellendus omnis officia pariatur unde voluptate.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, inventore voluptatibus, cum dolor
+                    mollitia repellat, qui quisquam distinctio tempora quae quam animi ab quod a!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus doloremque minima dolorum!
+                </p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi ipsam repudiandae necessitatibus a
+                    minus repellendus, rem officiis voluptas delectus dolor esse rerum animi aliquam fuga ut non officia
+                    totam veritatis.</p>
+            </div>
+
+            <ul class="list_twenty">
+                <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum, hic.</li>
+                <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam, voluptate.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit distinctio repellat explicabo!
+                </li>
+                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis, corporis?</li>
+            </ul>
+        </section>
+        <hr>
+        <br>
+
+        <!-- :empty Selector -->
+
+        <section>
+            <h2>:empty Selector</h2>
+            <span>The :empty selector matches every element that has no children (including text nodes).</span>
+
+            <div class="box_empty">
+                <p></p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione, aut.</p>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                </ul>
+            </div>
+
+            <ul class="list_thirty">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Bootstrap</li>
+                <li>JS</li>
+                <li></li>
+            </ul>
+            <hr>
+            <br>
+        </section>
+
+        <!-- :not Selector -->
+
+        <section>
+            <h2>:not Selector</h2>
+            <span>The :not(selector) selector matches every element that is NOT the specified element/selector. </span>
+
+            <div class="box_rect">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, officia?</p>
+                <p class="new_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, doloribus omnis
+                    modi voluptatem
+                    et blanditiis?</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error, eveniet?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid recusandae excepturi totam nobis
+                    sunt voluptatum sapiente ad nisi velit animi.</p>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, qui!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, laboriosam repudiandae dolore saepe illo
+                placeat.</p>
+            <p class="new_para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, laboriosam repudiandae
+                dolore saepe illo
+                placeat.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, laboriosam repudiandae dolore saepe illo
+                placeat.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, laboriosam repudiandae dolore saepe illo
+                placeat.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, laboriosam repudiandae dolore saepe illo
+                placeat.</p>
+            <p class="new_para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, laboriosam repudiandae
+                dolore saepe illo
+                placeat.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, laboriosam repudiandae dolore saepe illo
+                placeat.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, laboriosam repudiandae dolore saepe illo
+                placeat.</p>
+            <hr>
+            <br>
+        </section>
+
+        <!-- :lang Selector -->
+
+        <section>
+            <h2>:lang Selector</h2>
+            <span>The :lang() selector is used to select elements with a lang attribute with the specified value.</span>
+
+            <div class="box_sq">
+                <p class="langu" lang="en">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, error.</p>
+                <p class="langu" lang="de">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum autem cumque
+                    soluta?</p>
+                <p class="langu" lang="uk">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis, velit!</p>
+            </div>
+            <hr>
+            <br>
+        </section>
+
+        <!--:link Selector-->
+
+        <section>
+            <h2>:link Selector</h2>
+            <span class="link_select">The :link selector is used to select unvisited links.</span>
+            <strong>Note: The :link selector does not style links you have already visited.</strong>
+
+            <ul class="nav_item">
+                <li><a href="https://google.co.in">Home</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
+
+            <!-- :hover Selector -->
+            <h2>hover Selector</h2>
+            <span>The :hover selector is used to select elements when you mouse over them.</span>
+            <strong>The :hover selector can be used on all elements, not only on links.</strong>
+
+            <!-- :visited Selector -->
+            <h2>:visited Selector</h2>
+            <span>The :visited selector is used to select visited links.</span>
+
+            <!-- :active Selector -->
+            <h2>:active Selector</h2>
+            <span>The :active selector is used to select and style the active link.</span>
+            <hr>
+            <br>
+        </section>
+
+        <!--  :target Selector -->
+
+        <section>
+            <h2> :target Selector</h2>
+            <span>The :target selector can be used to style the current active target element.</span>
+
+            <ul class="target_list">
+                <li><a href="#html">What is HTML ?</a></li>
+                <li><a href="#css">What is Css ?</a></li>
+                <li><a href="#js">What is Js</a></li>
+            </ul>
+
+            <p id="html">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, quis?</p>
+            <p id="css">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, a?</p>
+            <p id="js">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem, modi nulla?</p>
+            <hr>
+            <br>
+        </section>
+
+        <!-- Form related Pseudo-Class -->
+
+        <section>
+            <!-- focus -->
+            <h2>Focus</h2>
+            <span>The :focus selector is used to select the element that has focus.</span>
+            <br>
+            <br>
+            <!-- form stared-->
+
+            <form action="#">
+                <h2>Students Details</h2>
+
+                <label for="student_name">Student First Name:</label>
+                <input type="text" name="fname" id="student_name" required><br><br>
+                <label for="middle_name">Middle Name:</label>
+                <input type="text" name="middile_name" id="middle_name" value="Enter Your Middle Name" readonly><br><br>
+                <label for="last_name">Last Name:</label>
+                <input type="text" name="lname" id="last_name"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required><br><br>
+                <label for="mobile">Telephone Number:</label>
+                <input type="tel" name="tel" id="mobile"><br><br>
+                <label for="dob">DOB:</label>
+                <input type="date" name="dob" id="dob" disabled><br><br>
+                <label for="age">Age:</label>
+                <input type="number" name="age " id="age" min="10" max="20"><br><br>
+                <label>Gender</label>
+                <input type="radio" name="gender" id="male"><label for="male">Male</label>
+                <input type="radio" name="gender" id="female"><label for="female">Female </label><br><br>
+                <label>Stream</label>
+                <input type="checkbox" name="stream1" id="art" value="arts_stream">ARTS
+                <input type="checkbox" name="stream2" id="comm" value="commerce_stream" checked>Commerce
+                <input type="checkbox" name="stream3" id="science" value="science_stream">Science <br><br>
+                <label for="city">City</label>
+                <select name="" id="city">
+                    <option value="none">Select Your City</option>
+                    <option value="kolkata">KOlkata</option>
+                    <option value="Pune" selected>Pune</option>
+                    <option value="Bangalore">Bangalore</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Kota">Kota</option>
+                </select><br><br>
+
+                <input type="submit" value="Submit">
+            </form>
+            <br>
+            <hr>
+            <!-- :checked Selector -->
+            <h2>:checked Selector</h2>
+            <span class="check_box">The :checked selector matches every checked <b>input</b> element (only for radio
+                buttons and checkboxes)
+                and <b>option</b> element.</span>
+            <br>
+            <hr>
+
+            <!-- :enabled Selector -->
+
+            <h2>:enabled Selector</h2>
+            <span>The :enabled selector matches every enabled element (mostly used on form elements).</span>
+            <br>
+            <hr>
+
+            <!--  :disabled Selector -->
+
+            <h2> :disabled Selector</h2>
+            <span>The :disabled selector matches every disabled element (mostly used on form elements).</span>
+            <br>
+            <hr>
+
+            <!-- :required Selector -->
+
+            <h2>:required Selector</h2>
+            <span>The :required selector selects form elements which are required.Form elements with a required
+                attribute are defined as required.</span>
+            <b>Note: The :required selector only applies to the form elements: input, select and textarea.</b>
+            <br>
+            <hr>
+
+            <!-- :optional Selector -->
+
+            <h2>:optional selector</h2>
+            <span>The :optional selector selects form elements which are optional.Form elements with no required
+                attribute are defined as optional.</span>
+            <b>Note: The :optional selector only applies to the form elements: input, select and textarea.</b>
+            <br>
+            <hr>
+
+            <!-- :in-range Selector -->
+            <h2>:in-range Selector</h2>
+            <span>The :in-range selector selects all elements with a value that is within a specified range.</span>
+            <b>Note: The :in-range selector only works for input elements with min and/or max attributes!</b>
+            <br>
+            <hr>
+
+            <!-- :out-of-range Selector -->
+            <h2>:out-of-range Selector</h2>
+            <span>The :out-of-range selector selects all elements with a value that is outside a specified range.</span>
+            <b>Note: The :out-of-range selector only works for input elements with min and/or max attributes!</b>
+            <br>
+            <hr>
+
+            <!-- :read-only Selector -->
+            <h2>:read-only Selector</h2>
+            <span>The :read-only selector selects elements which are "readonly".</span>
+
+            <!-- :read-write Selector -->
+
+            <h2>:read-write Selector</h2>
+            <span>The :read-write selector selects form elements which are "readable" and "writeable".</span>
+            <br>
+            <hr>
+
+            <!-- :valid Selector -->
+            <h2>:valid Selector</h2>
+            <span>The :valid selector selects form elements with a value that validates according to the element's
+                settings.</span>
+            <b>Note: The :valid selector only works for form elements with limitations, such as input elements with min
+                and max attributes, email fields with a legal email, or number fields with a numeric value, etc.</b>
+            <br>
+            <hr>
+
+            <!--  :invalid Selector -->
+            <h2> :invalid Selector</h2>
+            <span>The :invalid selector selects form elements with a value that does not validate according to the
+                element's settings.</span>
+            <b>Note: The :invalid selector only works for form elements with limitations, such as input elements with
+                min and max attributes, email fields without a legal email, or number fields without a numeric value,
+                etc.</b>
+            <br>
+            <hr>
+
+            <!-- default Selector -->
+            <h2> default Selector</h2>
+        </section>
+
+        <!-- :root Selector -->
+
+        <section>
+            <h2>:root Selector</h2>
+            <span>The :root selector matches the document's root element.</span>
+
+            <div class="root">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque soluta repellat placeat in laudantium
+                    itaque quo rerum quos inventore necessitatibus?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non necessitatibus dolorem sit sequi harum
+                    possimus iste facilis alias cum error corrupti numquam quisquam impedit labore esse, atque quod vel
+                    nostrum!</p>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
